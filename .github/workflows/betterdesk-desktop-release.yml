@@ -380,7 +380,5 @@ jobs:
           files: |
             dist/clean/*
             dist/msi-template/*
-            dist/generator-templates-*.tar.gz
-            dist/generator-templates-*.tar.gz.sha256
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
